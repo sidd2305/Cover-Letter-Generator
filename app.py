@@ -13,7 +13,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Initialize OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_file):
