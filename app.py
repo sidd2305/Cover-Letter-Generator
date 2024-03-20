@@ -13,7 +13,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Initialize OpenAI client
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_file):
@@ -40,7 +40,7 @@ def get_assistant_response(messages):
 # Streamlit app
 def main():
     st.title("Cover Letter Generator")
-    st.write("Upload your resume PDF and enter the job description to generate a cover letter.")
+    st.write("Upload your resume PDF and enter the Job Description to generate a cover letter.")
 
     # Upload PDF file
     uploaded_file = st.file_uploader("Upload your resume PDF", type=["pdf"])
