@@ -57,7 +57,7 @@ def main():
     st.title("Cover Letter Generator✉️")
     st.write("Upload your resume PDF and enter the Job Description to generate a cover letter using Mistral 7B.📩✨")
     st.write("⚠️Do Remember to upload a resume to avoid any errors⚠️")
-    st.write("Tip:Do scroll down to also download your cover letter as a file😉.")
+    st.write("Tip😉-Do scroll down to also download your cover letter as a file.")
     # Upload PDF file
     uploaded_file = st.file_uploader("Upload your resume PDF", type=["pdf"])
     if uploaded_file is not None:
